@@ -1,0 +1,29 @@
+.homegridLeft{
+    background: url("../images/HomeImage1.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    width: 7/12;
+}
+
+.homegridRight{
+    background: url("../images/homeImage2.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    width: 5/12;
+}
+
+.homeLogoText{
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    padding-top: 35%;
+    padding-left: 5%;
+}
+
+.homeText{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 24px;
+    padding-top: 22%;
+    padding-left: 68%;
+}
