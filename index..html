@@ -52,23 +52,308 @@
 
 <!-----------------------------------------Navigation Bar Done --------------------------------------------------------->
 
-<!-----------------------------------------Home Page --------------------------------------------------------->
+<!-----------------------------------------Home Page ------------------------------------------------------------------->
 <div class="container-fluid">
     <div class="row" style=" height: 100vh">
-    <div class="col-7 homegridLeft">
-        <div class="row homeLogoText">
-            <p>The Art Cafe</p>
+        <div class="col-7 homegridLeft">
+            <div class="row homeLogoText">
+                <p>The Art Cafe</p>
+            </div>
+            <div class="row homeText">
+                <p>A collaborative Web platform</p>
+                <!--<p>And</p>
+                <p>The Mobile application</p>
+                <p>For Artist and Art Enthusiasts</p>-->
+            </div>
         </div>
-        <div class="row homeText">
-            <p>A collaborative Web platform</p>
-            <!--<p>And</p>
-            <p>The Mobile application</p>
-            <p>For Artist and Art Enthusiasts</p>-->
-        </div>
+        <div class="col-5 homegridRight"></div>
     </div>
-    <div class="col-5 homegridRight"></div>
-</div>
 </div>
 <!-----------------------------------------Home Page end --------------------------------------------------------->
+
+<!-----------------------------------------About ----------------------------------------------------------------->
+
+<div class="contactBackground">
+    <div class="contactTextSet1">
+        <p>About us</p>
+    </div>
+    <div class="contactTextSet2">
+        <p>Want to Get in Touch? We'd Love to Hear from You! Here's How You can Reach us...</p>
+    </div>
+    <div class="row contactPill shadow-lg">
+        <div class="col-3">
+            <div class="d-flex h4">
+                <i class="bi bi-facebook mx-3"></i>
+                <p>theartcafe@facebook.com</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="d-flex h4">
+                <i class="bi bi-telephone-fill mx-3"></i>
+                <p>0705604828</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="d-flex h4">
+                <i class="bi bi-instagram mx-3"></i>
+                <p>TheArtCafe</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="d-flex h4">
+                <i class="bi bi-envelope-fill mx-3"></i>
+                <p>theartcafe@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="contactTextSet3">
+        <p>A collaborative Web platform</p>
+        <p>And</p>
+        <p>The Mobile application</p>
+        <p>For Artist and Art Enthusiasts</p>
+    </div>
+    <div class="contactTextSet4">
+        <p>
+            THE ART CAFE
+        </p>
+    </div>
+</div>
+<br><br>
+
+<!-----------------------------------------Event ------------------------------------------------------------------>
+
+<div class="eventBackground">
+    <div class="container bg-white h-100">
+        <div class="d-flex justify-content-center">
+            <h1 class="mt-5 pt-3">Events</h1>
+        </div>
+
+        <div class="accordion mt-3 px-5" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                        Selecting best artist.
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                     data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Event is not available yet.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Selecting best art.
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                     data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Event is not available yet.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Most famous artist
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                     data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Event is not available yet.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Most famous art
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                     data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Event is not available yet.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------------------------Event End --------------------------------------------------------------->
+
+<!-----------------------------------------Gallery ----------------------------------------------------------------->
+
+<div>
+    <div class="galleryBackground">
+        <div class="d-flex justify-content-center mt-5 pt-3">
+            <h1>Gallery</h1>
+        </div>
+
+        <div class="container">
+            <div class="d-flex my-4 mx-4">
+                <div class="row">
+                    <div class="col-3 mb-4" style="minWidth: 19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width: 18rem">
+                                <img src={Image.G1} clas="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth: 19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width:18rem">
+                                <img src={Image.G2} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth:19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width: 18rem">
+                                <img src={Image.G3} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth: 19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width:18rem">
+                                <img src={Image.G4} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth:19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width:18rem">
+                                <img src={Image.G5} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth:19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width:18rem">
+                                <img src={Image.G6} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth:19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width: 18rem">
+                                <img src={Image.G7} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth:19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width:18rem">
+                                <img src={Image.G8} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth:19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width:18rem">
+                                <img src={Image.G9} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth:19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width:18rem">
+                                <img src={Image.G10} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth:19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width:18rem">
+                                <img src={Image.G11} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4" style="minWidth:19rem">
+                        <div class="d-flex justify-content-center">
+                            <div class="card shadow-lg" style="width:18rem">
+                                <img src={Image.G12} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
+                                     height="285px"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------------------------Gallery end----------------------------------------------------------------->
+
+<!-----------------------------------------Contact Us  ----------------------------------------------------------------->
+
+<div class="contactBackground">
+    <div class="contactTextSet1">
+        <p>Contact us</p>
+    </div>
+    <div class="contactTextSet2">
+        <p>Want to Get in Touch? We'd Love to Hear from You! Here's How You can Reach us...</p>
+    </div>
+    <div class="row contactPill shadow-lg">
+        <div class="col-3">
+            <div class="d-flex h4">
+                <i class="bi bi-facebook mx-3"></i>
+                <p>theartcafe@facebook.com</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="d-flex h4">
+                <i class="bi bi-instagram mx-3"></i>
+                <p>TheArtCafe</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="d-flex h4">
+                <i class="bi bi-telephone-fill mx-3"></i>
+                <p>0705604828</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="d-flex h4">
+                <i class="bi bi-envelope-fill mx-3"></i>
+                <p>theartcafe@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="contactTextSet3">
+        <p>A collaborative Web platform</p>
+        <p>And</p>
+        <p>The Mobile application</p>
+        <p>For Artist and Art Enthusiasts</p>
+    </div>
+    <div class="contactTextSet4">
+        <p>
+            THE ART CAFE
+        </p>
+    </div>
+</div>
+
 </body>
 </html>
