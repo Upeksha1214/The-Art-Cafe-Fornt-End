@@ -1,0 +1,100 @@
+.userBackground{
+    background: url("../images/user.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+/*--------------------------Admin css------------------------------------------------------------------------------*/
+
+.userSideBar{
+    background-color: rgba(0, 0, 0,0.7);
+    height: 100vh;
+    width: 25%;
+}
+
+.userButtonFrame{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 72px;
+    margin: 60% 0% 0% 0%;
+    text-align: center;
+}
+
+.logingridLeft{
+    background-color: #BBB;
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    padding: 7% 12% 10% 12%;
+
+}
+
+.logingridRight{
+    background: url("../images/admin.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+
+}
+
+.loginForm{
+    padding: 0% 0% 0% 0%;
+}
+
+.loginHeadLine{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+.loginText{
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+}
+
+.loginText2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+}
+/*----------------------------------------------------------------------------------------------*/
+.registergridLeft{
+    background: url("../images/singup 01.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    width: 3/12;
+}
+
+.registergridCenter{
+    background-color: #DDD;
+}
+
+.registergridRight{
+    background: url("../images/singup02.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    width: 3/12;
+}
+
+.registerHeader{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 52px;
+    letter-spacing: 15px;
+}
+
+.registergridCenter{
+    padding: 0% 3%;
+}
+
+.registerBtn{
+    background-color: #a75b5b;
+}
+
+.registerFooter{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+}
