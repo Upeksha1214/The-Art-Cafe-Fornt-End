@@ -28,23 +28,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#" style="color: white">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home" style="color: white">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white">About Us</a>
+                    <a class="nav-link" href="#about" style="color: white">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white">Event</a>
+                    <a class="nav-link" href="#event" style="color: white">Event</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" style="color: white">Gallery</a>
+                    <a class="nav-link " style="color: white" href="#gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" style="color: white">Contact Us</a>
+                    <a class="nav-link " style="color: white" href="#contactUs">Contact Us</a>
                 </li>
             </ul>
             <form class="d-flex">
-                <a class="nav-link disabled" style="color: white">Sing In</a>
+                <a class="nav-link " style="color: white" href="../theArtCafeFrontEnd/singPage.html">Sing In</a>
             </form>
         </div>
     </div>
@@ -53,8 +53,8 @@
 <!-----------------------------------------Navigation Bar Done --------------------------------------------------------->
 
 <!-----------------------------------------Home Page ------------------------------------------------------------------->
-<div class="container-fluid">
-    <div class="row" style=" height: 100vh">
+<div class="container-fluid" id="home">
+    <div class="row" style=" height: 100vh"> 
         <div class="col-7 homegridLeft">
             <div class="row homeLogoText">
                 <p>The Art Cafe</p>
@@ -72,8 +72,8 @@
 <!-----------------------------------------Home Page end --------------------------------------------------------->
 
 <!-----------------------------------------About ----------------------------------------------------------------->
-
-<div class="contactBackground">
+<dfn id="about">
+<div class="contactBackground" >
     <div class="contactTextSet1">
         <p>About us</p>
     </div>
@@ -119,10 +119,11 @@
     </div>
 </div>
 <br><br>
+</dfn>
 
 <!-----------------------------------------Event ------------------------------------------------------------------>
-
-<div class="eventBackground">
+<dfn id="event">
+<div class="eventBackground" >
     <div class="container bg-white h-100">
         <div class="d-flex justify-content-center">
             <h1 class="mt-5 pt-3">Events</h1>
@@ -189,13 +190,13 @@
         </div>
     </div>
 </div>
-
+</dfn>
 <!-----------------------------------------Event End --------------------------------------------------------------->
 
 <!-----------------------------------------Gallery ----------------------------------------------------------------->
-
+<dfn id="gallery">
 <div>
-    <div class="galleryBackground">
+    <div class="galleryBackground" >
         <div class="d-flex justify-content-center mt-5 pt-3">
             <h1>Gallery</h1>
         </div>
@@ -203,13 +204,18 @@
         <div class="container">
             <div class="d-flex my-4 mx-4">
                 <div class="row">
-                    <div class="col-3 mb-4" style="minWidth: 19rem">
+                    <div class="col-3 mb-4" style="minWidth: 19rem">Name
                         <div class="d-flex justify-content-center">
                             <div class="card shadow-lg" style="width: 18rem">
                                 <img src={Image.G1} clas="px-2 py-2 artistArtworkImage" alt="" width="285px"
                                      height="285px"/>
                             </div>
                         </div>
+                        <button style="color: #000;">Like</button>
+                        <button style="color: #000;">comment</button>
+                        <button style="color: #000;">give feedback</button>
+                        <button style="color: #000;">give rate Star</button>
+                        <button style="color: #000;">contact option( call / others)</button>
                     </div>
                     <div class="col-3 mb-4" style="minWidth: 19rem">
                         <div class="d-flex justify-content-center">
@@ -257,6 +263,7 @@
                                 <img src={Image.G7} class="px-2 py-2 artistArtworkImage" alt="" width="285px"
                                      height="285px"/>
                             </div>
+
                         </div>
                     </div>
                     <div class="col-3 mb-4" style="minWidth:19rem">
@@ -304,12 +311,12 @@
         </div>
     </div>
 </div>
-
+</dfn>
 <!-----------------------------------------Gallery end----------------------------------------------------------------->
 
 <!-----------------------------------------Contact Us  ----------------------------------------------------------------->
-
-<div class="contactBackground">
+<dfn id="contactUs">
+<div class="contactBackground" >
     <div class="contactTextSet1">
         <p>Contact us</p>
     </div>
@@ -354,6 +361,7 @@
         </p>
     </div>
 </div>
+</dfn>
 
 </body>
 </html>
