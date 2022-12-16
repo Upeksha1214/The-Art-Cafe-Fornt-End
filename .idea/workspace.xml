@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a2367bf0-1c7c-4c03-8bba-daaa3a7603e0" name="Default Changelist" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index..html" beforeDir="false" afterPath="$PROJECT_DIR$/index..html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/singPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -77,6 +79,7 @@
       <workItem from="1669873848338" duration="3677000" />
       <workItem from="1669901961762" duration="5225000" />
       <workItem from="1670162766225" duration="10484000" />
+      <workItem from="1671159877055" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1670216438713</created>
@@ -119,6 +122,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1670213073458" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1671160079710">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1671160079710" />
     <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1670216472326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

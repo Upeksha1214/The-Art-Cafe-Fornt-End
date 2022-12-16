@@ -38,6 +38,7 @@
     width: 100%;
 }
 
+
 .contactTextSet1{
     font-family: 'Anton', sans-serif;
     font-size: 48px;
@@ -70,6 +71,46 @@
 
 }
 
+.galleryHeader{
+}
+
+.button{
+   left:5px;
+   position: relative;
+   margin-bottom: 0%;
+}
+
+.like{
+    border: none;
+    height: 50px;
+    width: 46px;
+    background:url("../icoun/like.png") ;
+}
+.comment{
+    border: none;
+    height: 50px;
+    width: 46px;
+    background:url("../icoun/comment.png") ;
+}
+.feedback{
+    border: none;
+    height: 50px;
+    width: 46px;
+    background:url("../icoun/feedback.png") ; 
+}
+.star{
+    border: none;
+    height: 50px;
+    width: 46px;
+    background:url("../icoun/star.png") ; 
+}
+.contact{
+    border: none;
+    height: 50px;
+    width: 46px;
+    background:url("../icoun/contact.png") ; 
+}
+
 .contactPill{
     border-radius: 50px;
     margin: 0% 10%;
@@ -87,4 +128,5 @@
     height: 100vh;
     width: 100%;
 }
+
 
